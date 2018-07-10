@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/cocoapods/l/AFNetworking.svg)](LICENSE)
+
 Content Security Policy Filter (Java)
 ===========================
 
@@ -93,3 +95,8 @@ Optionally configure a Servlet to log the CSP violations:
              <servlet-name>ContentSecurityPolicyReporter</servlet-name>
              <url-pattern>/ContentSecurityPolicyReporter</url-pattern>
          </servlet-mapping>          
+
+## License
+This project is a fork of the following repository where the original code is published under the Apache License: https://github.com/ronaldploeger/ContentSecurityPolicyFilter
+
+This fork will build upon the work that was previously done and will do so under the terms of the [MIT License](/LICENSE).
